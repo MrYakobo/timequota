@@ -1,9 +1,9 @@
 {
     "name": "mryakobo.timequota",
     "title": "Time Quota",
-    "description": "Measures how much time you've wasted on the currently open project. Adds View > Time Quota and an indicator that, when hovered, displays the quota.",
+    "description": "NOTE: Restart Brackets when install has finished. Measures how much time you've wasted on the currently open project. Adds View > Time Quota and an indicator that, when hovered, displays the quota.",
     "homepage": "https://github.com/mryakobo/timequota",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "Jakob Lindskog <jakob.lindskog@gmail.com> (http://github.com/mryakobo)",
     "license": "MIT",
     "engines": {
@@ -15,7 +15,7 @@
     "i18n": ["en", "sv"],
     "package-i18n": {
         "sv": {
-            "description": "Håller koll hur mycket tid du har slösat på ditt projekt. Lägger till Visa > Time Quota samt en indikator som kan hållas över med musen för att visa tiden."
+            "description": "OBS: Starta om Brackets efter installation. Håller koll hur mycket tid du har slösat på ditt projekt. Lägger till Visa > Time Quota samt en indikator som kan hållas över med musen för att visa tiden."
         }
     }
 }
