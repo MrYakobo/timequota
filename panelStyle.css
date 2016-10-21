@@ -1,0 +1,64 @@
+.atimer-panel{
+    text-align: center;
+    position: relative;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', sans-serif;
+}
+
+.atimer-panel-close{
+    background: #242424;
+    color: #fff;
+    padding: 10px;
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 1.2em;
+    font-family: 'Arial Black', 'Arial' 'Helvetica', sans-serif;
+    cursor: pointer;
+    transition-duration: .25s;
+    transition-property: background;
+}
+.atimer-panel-close:hover{
+    background: #434343;
+}
+.atimer-panel-close:active{
+    background: #151515;
+}
+.atimer-panel span{
+    color: #fff;
+    vertical-align: 80%;
+    font-size: 1.2em;
+    font-weight: 600;
+    width: 55px;
+    display: inline-block;
+}
+.atimer-panel .time {
+    font-size: 1.65em;
+    text-align: left;
+    width: 33px;
+    border-radius: 5px;
+    border: 2px solid #1B1B1B;
+    padding: 6px;
+    /* border-bottom: 3px solid #0C0C0C; */
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.59);
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden;
+}
+
+.atimer-panel p {
+    margin: 15px;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.atimer-panel p.small {
+    font-size: 1.1em;
+    margin-top: 1px;
+    color: #c3c3c3;
+    font-style: italic;
+}

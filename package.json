@@ -1,0 +1,21 @@
+{
+    "name": "mryakobo.timequota",
+    "title": "Time Quota",
+    "description": "Measures how much time you've wasted on the currently open project. Adds View > Time Quota and an indicator that, when hovered, displays the quota.",
+    "homepage": "https://github.com/mryakobo/timequota",
+    "version": "1.0.0",
+    "author": "Jakob Lindskog <jakob.lindskog@gmail.com> (http://github.com/mryakobo)",
+    "license": "MIT",
+    "engines": {
+        "brackets": ">=0.24.0"
+    },
+    "keywords": [
+        "time","waste","time waste","mryakobo","measure","tid","tidsräknare"
+    ],
+    "i18n": ["en", "sv"],
+    "package-i18n": {
+        "sv": {
+            "description": "Håller koll hur mycket tid du har slösat på ditt projekt. Lägger till Visa > Time Quota samt en indikator som kan hållas över med musen för att visa tiden."
+        }
+    }
+}
